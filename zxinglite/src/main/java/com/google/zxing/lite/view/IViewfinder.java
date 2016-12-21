@@ -12,12 +12,10 @@ public interface IViewfinder {
 
     /**
      * 处理decode
-     * @param result
-     * @param bundle
      */
-    public void handleDecode(Result result, Bundle bundle);
+    void handleDecode(Result result, Bundle bundle);
 
     //public ViewfinderView getViewfinderView();
 
-    public Handler getHandler();
+    Handler getHandler();
 }
