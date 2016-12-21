@@ -5,7 +5,7 @@ import android.os.Handler;
 import com.google.zxing.Result;
 
 /**
- * Created by lsl on 2016/9/21.
+ * Created by eyow on 2016/9/21.
  */
 
 public interface IViewfinder {
